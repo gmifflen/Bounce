@@ -10,7 +10,7 @@ Bounce is a simple 2D screen saver created using the [ggez](https://ggez.rs/) ga
 - [Contributing](#contributing)
 - [License](#license)
 
-![Bounce Screenshot](https://github.com/gmifflen/Bounce/blob/main/sc.png)
+![Bounce Screenshot](https://github.com/gmifflen/Bounce/blob/main/sc.png?raw=true)
 
 ## Installation
 
