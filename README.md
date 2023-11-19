@@ -51,6 +51,7 @@ The objective of Bounce is simple: watch the square as it bounces around the scr
 
 ## TODO
 - [ ] Make square start at click
+- [ ] Generic TODO item
 - [ ] Multiple squares
 - [ ] Make code safer
 - [ ] Improve the GUI layout and design
