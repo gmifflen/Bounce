@@ -47,7 +47,7 @@ The objective of Bounce is simple: watch the square as it bounces around the scr
 
 ## Controls
 
-- Face towards the screen, and lok at the amazing colours
+- Face towards the screen, and look at the amazing colours
 
 ## TODO
 - [ ] Make square start at click
