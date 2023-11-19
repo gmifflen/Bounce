@@ -24,7 +24,7 @@ To run Bounce, you'll need to have Rust and Cargo installed on your system. Once
 1. Clone the repository:
 
    ```nushell
-   git clone https://github.com/your-username/bounce.git
+   git clone https://github.com/gmifflen/Bounce.git
    ```
 
 2. Navigate to the project directory:
@@ -37,6 +37,8 @@ To run Bounce, you'll need to have Rust and Cargo installed on your system. Once
 
    ```nushell
    cargo run
+   # or
+   cargo build
    ```
 
 ## Usage
