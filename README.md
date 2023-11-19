@@ -47,6 +47,13 @@ The objective of Bounce is simple: watch the square as it bounces around the scr
 
 - Face towards the screen, and lok at the amazing colours
 
+## TODO
+- [ ] Make square start at click
+- [ ] Multiple squares
+- [ ] Make code safer
+- [ ] Improve the GUI layout and design
+- [ ] Squash bugs
+- [ ] Add timer
 
 ## License
 
