@@ -57,6 +57,12 @@ The objective of Bounce is simple: watch the square as it bounces around the scr
 - [ ] Squash bugs
 - [ ] Add timer
 
+## Contributing
+
+I'm not the best at Rust, this is my first Rust project past 'Hello, World!'.
+
+Any suggestions on improvements or ways to write it in a better/safer way is much appreciated.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
