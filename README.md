@@ -17,7 +17,7 @@ Bounce is a simple 2D screen saver created using the [ggez](https://ggez.rs/) ga
 To run Bounce, you'll need to have Rust and Cargo installed on your system. Once you have Rust set up, you can follow these steps:
 
 ### Download the prebuilt exe
-[latest release](link)
+[latest release](https://github.com/gmifflen/Bounce/releases/tag/1.0.0)
 
 ### Build from source
 
