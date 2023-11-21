@@ -1,6 +1,6 @@
 # Bounce
 
-Bounce is a simple 2D screen saver created using the [ggez](https://github.com/ggez/ggez) game framework. In this 'game', you watch a bouncing square that leaves a colorful trail behind it. The square changes color in a rainbow-like pattern, creating a visually appealing effect as it moves around the screen.
+Bounce is a simple 2D screen saver created using Rust and  the [ggez](https://github.com/ggez/ggez) game framework. In this 'game', you watch a bouncing square that leaves a colorful trail behind it. The square changes color in a rainbow-like pattern, creating a visually appealing effect as it moves around the screen.
 
 ## Table of Contents
 
