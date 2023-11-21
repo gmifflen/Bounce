@@ -18,7 +18,13 @@ struct MainState {
 }
 
 impl MainState {
-    // Constructor for MainState.
+    /// Constructs a new `MainState`.
+    ///
+    /// # Arguments
+    /// * `_ctx` - Mutable reference to the game context.
+    ///
+    /// # Returns
+    /// A `GameResult` wrapping `MainState`.
     fn new(_ctx: &mut Context) -> GameResult<MainState> {
         let state = MainState {
             position: (100.0, 100.0),  // Initial position.
@@ -29,8 +35,11 @@ impl MainState {
         };
         Ok(state)
     }
-
-    // Update the square's position, handle wall collision, and update the trail.
+    
+    /// Updates the square's position, handles collision, and manages the trail.
+    ///
+    /// # Arguments
+    /// * `ctx` - Mutable reference to the game context.
     fn update_square(&mut self, ctx: &mut Context) {
         let (width, height) = graphics::drawable_size(ctx);
         let square_size = 50.0;
@@ -71,7 +80,13 @@ impl MainState {
 
 // Implement the EventHandler trait for MainState for handling game events.
 impl EventHandler for MainState {
-    // Update game logic.
+    /// Updates the game logic.
+    ///
+    /// # Arguments
+    /// * `ctx` - Mutable reference to the game context.
+    ///
+    /// # Returns
+    /// A `GameResult` indicating success or failure.
     fn update(&mut self, ctx: &mut Context) -> GameResult<()> {
         const DESIRED_FPS: u32 = 60;
 
@@ -82,7 +97,13 @@ impl EventHandler for MainState {
         Ok(())
     }
 
-    // Render the game graphics.
+    /// Renders the game graphics.
+    ///
+    /// # Arguments
+    /// * `ctx` - Mutable reference to the game context.
+    ///
+    /// # Returns
+    /// A `GameResult` indicating success or failure.
     fn draw(&mut self, ctx: &mut Context) -> GameResult<()> {
         graphics::clear(ctx, Color::BLACK); // Clear the screen.
 
@@ -109,7 +130,10 @@ impl EventHandler for MainState {
     }
 }
 
-// Main function to initialize the game and run the event loop.
+/// The main entry point of the game.
+///
+/// # Returns
+/// A `GameResult` indicating success or failure.
 fn main() -> GameResult {
     // Create the game context and event loop.
     let (mut ctx, event_loop) = ContextBuilder::new("Bounce", "author")
